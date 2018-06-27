@@ -54,8 +54,8 @@
   */
 
   	git init 			// Makes a new repository/Project from scratch
-  	git config --global user.name "Ray D"
-  	git config --global user.email "web24.red@gmail.com" 	// Global..Do ONCE
+  	git config --global user.name "Ray"
+  	git config --global user.email "MyEmail@gmail.com" 	// Global..Do ONCE
 
 
 
@@ -70,3 +70,13 @@
   	git commit -m "first commit" 	// Commit to staging
   	git remote add origin https://github.com/rl-daniels/custom_meals.git 	// Create remote REPO
   	git push -u origin master 		// Push files to remote Repo
+
+
+
+  /* 		CLONE a REMOTE REPO
+  =============================================================================
+  	A folder named Custom_Meals will be created...
+  	So run this command in the parent directory.
+  =============================================================================
+  */
+  git clone git@github.com:rl-daniels/custom_meals
