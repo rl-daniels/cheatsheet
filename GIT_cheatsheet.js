@@ -44,3 +44,29 @@
   =======================================================================
   */
   	.gitignore
+
+
+
+  /* 		CREATE a LOCAL PROJECT
+  =======================================================================
+  	move to your home folder..wheverver your code is stored
+  =======================================================================
+  */
+
+  	git init 			// Makes a new repository/Project from scratch
+  	git config --global user.name "Ray D"
+  	git config --global user.email "web24.red@gmail.com" 	// Global..Do ONCE
+
+
+
+  /* 		CREATE a new GITHUB REPO from CommandLine
+  =======================================================================
+  	Create a local repository
+  	move to your home folder..wheverver your code is stored
+  =======================================================================
+  */
+  	git init 						// Create a local Repo
+  	git add README.md 				// Populate it with a file
+  	git commit -m "first commit" 	// Commit to staging
+  	git remote add origin https://github.com/rl-daniels/custom_meals.git 	// Create remote REPO
+  	git push -u origin master 		// Push files to remote Repo
