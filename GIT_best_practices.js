@@ -13,7 +13,7 @@
 ================================================================================================
 */
 	ssh-keygen -t rsa		// In Terminal, Creates a public/private key
-	password: >*<pwd55!
+	password: >*<code55!
 
 	cd ~ 						// Root Directory
 	ls .ssh
